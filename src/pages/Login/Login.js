@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Login.scss';
 
 export default function Login() {
@@ -9,7 +10,14 @@ export default function Login() {
         <img src="https://swit.io/assets/images/lib/ui/illust/normal-welcome-light.svg" />
         <div className="header-layout">협업의 시작, we chat!</div>
         <div className="button-layout">
-          <button className="free-standard">Free/Standard</button>
+          <button className="free-standard">
+            <Link
+              to="../LoginForm/LoginForm.js"
+              style={{ textDecoration: 'none', color: '#478bff' }}
+            >
+              Free/Standard
+            </Link>
+          </button>
           <button className="advanced">Advanced</button>
         </div>
       </div>
