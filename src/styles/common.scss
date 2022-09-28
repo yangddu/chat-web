@@ -1,0 +1,28 @@
+@import './variables.scss';
+
+html {
+  scroll-behavior: smooth;
+}
+/* Universal tags */
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 50px;
+  background-color: #fff;
+}
