@@ -12,7 +12,7 @@ export default function Login() {
         <div className="button-layout">
           <button className="free-standard">
             <Link
-              to="../LoginForm/LoginForm.js"
+              to="/auth/login"
               style={{ textDecoration: 'none', color: '#478bff' }}
             >
               Free/Standard
